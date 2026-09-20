@@ -1,0 +1,17 @@
+title: "易波｜国际经济法与商事争议解决"
+description: "易波，东南大学法学院副教授、硕士生导师，东南大学人权研究院副院长，江苏益友天元（南京）律师事务所管理合伙人。"
+url: "https://linmeiling21.github.io/-"
+baseurl: ""
+lang: "zh-CN"
+timezone: "Asia/Shanghai"
+markdown: kramdown
+collections:
+  articles:
+    output: true
+    permalink: /articles/:name/
+defaults:
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: article
