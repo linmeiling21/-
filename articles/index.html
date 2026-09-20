@@ -1,0 +1,6 @@
+---
+layout: default
+title: "专业文章｜易波"
+description: "易波教授关于国际经济法、商事争议解决与工商业人权法的专业文章。"
+---
+<section class="article-index"><div class="section-head"><span>ARTICLES</span><h1>专业文章</h1></div><p class="index-lead">持续整理研究、案例观察与面向实践的法律分析，让复杂问题更容易被理解。</p>{% assign posts = site.articles | sort: 'date' | reverse %}{% for post in posts %}<a class="article-card" href="{{ post.url | relative_url }}"><div class="article-date">{{ post.date | date: "%Y.%m.%d" }}</div><div><h2>{{ post.title }}</h2><p>{{ post.description }}</p></div><span>↗</span></a>{% endfor %}</section>
