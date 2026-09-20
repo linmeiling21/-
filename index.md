@@ -1,0 +1,15 @@
+---
+layout: default
+title: "易波｜国际经济法与商事争议解决"
+description: "易波，应用经济学博士后、法学博士，东南大学法学院副教授、硕士生导师。"
+---
+<section class="hero" id="top">
+<div class="hero-copy"><p class="eyebrow">YI BO · LAW & GLOBAL GOVERNANCE</p><h1>易波</h1><p class="hero-title">法学 · 国际经济法 · 商事争议解决 · 工商业人权法</p><p class="hero-lead">以法律研究连接全球规则、商业实践与人权议题。</p><div class="hero-actions"><a class="button button-dark" href="#about">认识易波</a><a class="button button-light" href="#articles">阅读文章</a></div></div>
+<div class="portrait-wrap"><img class="portrait" src="{{ '/assets/images/yibo.jpg' | relative_url }}" alt="易波教授肖像" onerror="this.onerror=null;this.src='{{ '/assets/images/portrait-placeholder.svg' | relative_url }}';"><div class="portrait-caption">YI BO<br><span>Associate Professor · Southeast University</span></div></div>
+</section>
+<section class="statement"><p>“让复杂的国际规则，成为可以理解、可以讨论、可以实践的知识。”</p></section>
+<section class="section" id="about"><div class="section-head"><span>01</span><h2>关于易波</h2></div><div class="bio-grid"><div class="bio-main"><p class="lead">易波，应用经济学博士后、法学博士，现任东南大学法学院副教授、硕士生导师，东南大学人权研究院副院长，江苏益友天元（南京）律师事务所管理合伙人。</p><p>曾赴美国康奈尔大学法学院、加州大学洛杉矶分校法学院、新加坡国立大学访学。主要研究领域为国际经济法、商事争议解决、工商业人权法。</p><p>曾作为具有联合国咨商地位的社会组织代表出席联合国人权理事会第57、58、59、60、61、62届会议并在大会现场发言。</p></div><div class="facts"><div><strong>12+</strong><span>主持课题</span></div><div><strong>6届</strong><span>联合国人权理事会会议</span></div><div><strong>3所</strong><span>海外访学经历</span></div></div></div></section>
+<section class="section dark-section"><div class="section-head"><span>02</span><h2>研究与实践</h2></div><div class="topic-grid"><article><span>01</span><h3>国际经济法</h3><p>关注跨境经贸规则、国际投资与全球经济治理中的法律问题。</p></article><article><span>02</span><h3>商事争议解决</h3><p>连接国际商事交易、争议预防、仲裁与诉讼等实践场景。</p></article><article><span>03</span><h3>工商业人权法</h3><p>研究企业经营与人权保护、国际规则及全球治理之间的互动。</p></article></div></section>
+<section class="section" id="articles"><div class="section-head"><span>03</span><h2>专业文章</h2><a href="{{ '/articles/' | relative_url }}">查看全部 →</a></div><div class="article-list">{% assign posts = site.articles | sort: 'date' | reverse %}{% for post in posts limit:5 %}<a class="article-card" href="{{ post.url | relative_url }}"><div class="article-date">{{ post.date | date: "%Y.%m.%d" }}</div><div><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div><span>↗</span></a>{% endfor %}</div></section>
+<section class="section"><div class="section-head"><span>04</span><h2>经历与荣誉</h2></div><div class="timeline"><div><b>教育</b><p>苏州大学法学本科、法学硕士、法学博士；东南大学应用经济学博士后。</p></div><div><b>访学</b><p>美国康乃尔大学法学院、加州大学洛杉矶分校法学院、新加坡国立大学。</p></div><div><b>研究</b><p>主持教育部人文社科项目等12项课题。</p></div><div><b>荣誉</b><p>获评“一带一路”争议解决类十佳法律服务案例、江苏省智库研究与决策咨询优秀成果二等奖等。</p></div></div></section>
+<section class="contact" id="contact"><div><p class="eyebrow">CONTACT</p><h2>建立专业连接</h2><p>学术交流、专题研讨、商事争议与涉外法律问题，可通过公开渠道联系。</p></div><div class="contact-actions"><a class="contact-link" href="mailto:YOUR_EMAIL@example.com">邮箱联系 ↗</a><button class="contact-link copy-link" type="button">复制本页链接</button></div></section>
