@@ -1,0 +1,1 @@
+document.querySelectorAll('.copy-link').forEach(btn=>btn.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);btn.textContent='链接已复制 ✓';setTimeout(()=>btn.textContent='复制本页链接',1800)}catch(e){btn.textContent='请手动复制地址'}}));
