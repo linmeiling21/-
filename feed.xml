@@ -1,0 +1,5 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>易波｜专业文章</title><link>{{ site.url }}{{ site.baseurl }}/</link><description>{{ site.description }}</description>{% for post in site.articles limit:20 %}<item><title>{{ post.title | xml_escape }}</title><link>{{ post.url | absolute_url }}</link><description>{{ post.description | xml_escape }}</description><pubDate>{{ post.date | date_to_rfc822 }}</pubDate></item>{% endfor %}</channel></rss>
